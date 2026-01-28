@@ -27,6 +27,7 @@ scissors = '''
 ---.__(___)
 '''
 b=int(input('Choose rock(0),paper(1) or scissors(2)'))
+a=random.randint(0,2)
 print('You chose')
 if b==0:
     print(rock)
